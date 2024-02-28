@@ -68,7 +68,7 @@ After installing the driver restart your PC.
 
 ### 3. Hardware Connections
 
-Until I create a schematic for the hardware connections you can use this simple diagram.
+> Until I create a schematic for the hardware connections you can use this simple diagram.
 
 ###### The pinout is unchanged from CiferTech's design.
 |esp32 Pin|Display Pin|Function|
@@ -91,3 +91,23 @@ Until I create a schematic for the hardware connections you can use this simple 
 
 ###### I'll add more information about wiring later
 ###### The original code seems to have a bug with the back button
+
+### 4. Flashing Software
+
+1. 
+```sh
+git clone https://github.com/syphr0/wifi32
+```
+
+Open the repo in Arduino. Install all dependencies and compile the code.
+> If there are issues you can't fix, Create a new issue [here](https://github.com/syphr0/wifi32/issues/new/choose), if you can, create an issue with the tag `Bugfix` detailing what's broken and how we can fix it.
+
+
+
+
+
+
+
+
+
+
