@@ -65,4 +65,28 @@ Click `OK` and wait for the list of boards to be indexed.
 
 After installing the driver restart your PC.
 
-### 3. 
+### 3. Hardware Connections
+
+Until I create a schematic for the hardware connections you can use this simple diagram.
+
+###### The pinout is unchanged from CiferTech's design.
+|esp32 Pin|Display Pin|Function|
+|:-:|:-:|:-|
+|14|CS|Chip Select|
+|33|RST|Reset|
+|27|DC|Data/Command|
+|23|DIN|Data out|
+|18|CLK|Clock out|
+|5V|VCC|5v Power|
+|3v3|LED|Backlight|
+|GND|GND|Ground|
+
+|esp32 Pin|Function|
+|:-:|:-|
+|21|Up|
+|22|Down|
+|25|Select|
+|26|Back|
+
+##### I'll add more information about wiring later
+##### The original code seems to have a bug with the back button
