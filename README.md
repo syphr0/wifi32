@@ -41,9 +41,7 @@ This will install the Arduino IDE using Windows'build in package manager from th
 
 Use your favorite package manager to install the arduino IDE.
 If you don't know how, look it uo on Google.
-<br>
-<br>
-<br>
+
 ### 2. ESP32 + Arduino
 
 In order to program the esp32 using the Arduino IDE, it needs to be detected by the computer and by the IDE.
