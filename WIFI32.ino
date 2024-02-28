@@ -1,7 +1,7 @@
 /* ____________________________
    This software is licensed under the MIT License:
    https://github.com/cifertech/ESP32-DIV
-   ________________________________________ */
+   ________________________________________  */
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7735.h>
