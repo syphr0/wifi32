@@ -89,5 +89,5 @@ Until I create a schematic for the hardware connections you can use this simple 
 |25|Select|
 |26|Back|
 
-##### I'll add more information about wiring later
-##### The original code seems to have a bug with the back button
+###### I'll add more information about wiring later
+###### The original code seems to have a bug with the back button
