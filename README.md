@@ -124,5 +124,8 @@ git clone https://github.com/syphr0/wifi32
 ### Library Help
 > You can find the libraries marked with a `*` in the [`required-libs`]() folder. I'll keep them updated. Copy them into your library folder (`Arduino/libraries/`).
 
+# Credits
 
-
+|User||
+|:-:|:-|
+|[<img src="https://github.com/cifertech.png" width="60px;"/><br /><sub><a href="https://github.com/cifertech">cifertech</a></sub>](https://github.com/cifertech/ESP32-DIV)|Original work|
