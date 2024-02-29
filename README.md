@@ -1,9 +1,58 @@
 
-# wifi32
+<div align="center">
 
-A wifi tool using the esp32
+  <!-- <img src="https://user-images.githubusercontent.com/62047147/195847997-97553030-3b79-4643-9f2c-1f04bba6b989.png" alt="logo" width="100" height="auto" /> -->
+  <h1>WiFi32</h1>
+   
+  <p>
+    A WiFi Security tool using the esp32
+  </p>
+ 
+<!-- Badges -->
+<a href="https://github.com/cifertech/ESP32-DIV" title="Original GitHub repo"><img src="https://img.shields.io/static/v1?label=Fork&message=ESP32-DIV&color=lightblue&logo=github&style=for-the-badge" alt="cifertech - ESP32-DIV"></a>
+<a href="https://github.com/syphr0/wifi32"><img src="https://img.shields.io/github/stars/syphr0/wifi32?style=for-the-badge&color=gold" alt="stars - wifi32"></a>
+<a href="https://github.com/syphr0/wifi32"><img src="https://img.shields.io/github/forks/syphr0/wifi32?style=for-the-badge&color=lightgreen" alt="forks - wifi32"></a>
 
 ###### Fork of [ESP32-DIV](https://github.com/cifertech/ESP32-DIV) by CiferTech
+
+</div>
+
+<details>
+    <summary><h>Table of Contents</h></summary>
+    <ol>
+        <li><a href="#about">About</a></li>
+        <li>
+        <details>
+          <summary><a href="#requirements">Requirements</a></summary>
+          <ul>
+            <li><a href="#software">Software</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+          </ul>
+        </details>
+        </li>
+        <li>
+        <details>
+          <summary><a href="#setup">Setup</a></summary>
+          <ol>
+            <li><a href="#1-install-the-arduino-ide">Install the Arduino IDE</a></li>
+            <li><a href="#2-esp32--arduino">esp32 + Arduino</a></li>
+            <li><a href="#3-hardware-connections">Hardware Connections (schematic)</a></li>
+            <li><a href="#4-flashing-software">Flashing Software</a></li>
+          </ol>
+        </details>
+        </li>
+        <li><a href="#library-help">Library Help*</a></li>
+        <li><a href="#credits">Credits</a></li>
+    </ol>
+</details>
+
+<br>
+
+# About
+
+The wifi32 is a handytool for monitoring wifi networks. 
+
+<br>
 
 # Requirements
 
@@ -19,7 +68,9 @@ A wifi tool using the esp32
 - _(`Optional`)_ Breadboard
 - _(`Optional`)_ Jumper wires
 
-# Prerequisites
+<br>
+
+# Setup
 
 This will be a step-by-step guide to getting started with the wifi32 (ESP32-DIV).
 <!-- In order to use the esp32 with the arduino IDE, a few steps must be done first. -->
