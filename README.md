@@ -94,20 +94,35 @@ After installing the driver restart your PC.
 
 ### 4. Flashing Software
 
-1. 
+1. Clone the repo
 ```sh
 git clone https://github.com/syphr0/wifi32
 ```
 
-Open the repo in Arduino. Install all dependencies and compile the code.
+2. Open the repo in Arduino and install all needed libraries.
+
+<details><summary>List of required libraries</summary>
+    <ul>
+        <li>Adafruit_GFX</li>
+        <li>Adafruit_ST7735</li>
+        <li>Adafruit_NeoPixel</li>
+        <li>FS<a href="#library-help">*</a></li>
+        <li>SD<a href="#library-help">*</a></li>
+        <li>SPI.h</li>
+        <!-- <li></li> -->
+    </ul>
+</details>
+
+<br>
+
+3. Connect the esp32 to the computer and select the right COM port along with the board. For this project it should be the `ESP32 Dev Module`.
+
+4. You can now flash the board. 
+
 > If there are issues you can't fix, Create a new issue [here](https://github.com/syphr0/wifi32/issues/new/choose), if you can, create an issue with the tag `Bugfix` detailing what's broken and how we can fix it.
 
-
-
-
-
-
-
+### Library Help
+> You can find the libraries marked with a `*` in the [`required-libs`]() folder. I'll keep them updated. Copy them into your library folder (`Arduino/libraries/`).
 
 
 
